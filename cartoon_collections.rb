@@ -16,7 +16,7 @@ def long_planeteer_calls(array)
   if array.find {|name| name.length < 4}
     true
   elsif array.all? {|name| name.length > 4}    
-    return false
+    return true
   else
   end
 end
