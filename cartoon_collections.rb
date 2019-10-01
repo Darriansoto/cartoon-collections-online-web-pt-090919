@@ -9,7 +9,7 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map {|name| name.capitalize + "!"}
+  planeteer_calls.map {|name| name.capitalize}
   puts planeteer_calls
 end
 
