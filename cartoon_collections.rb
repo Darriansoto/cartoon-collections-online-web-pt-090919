@@ -1,9 +1,20 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarf_names)
+  counter = 0
+  dwarf_names.each_with_index do |name, index|
+    while (index == counter)
+      print "#{index + 1}. #{name}"
+      counter += 1
+    end
+  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  new_planeteer_calls = []
+  planeteer_calls.each do |name|
+    puts "#{name.capitalize}!"
+    new_planeteer_calls << name
+  end
+  new_planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
