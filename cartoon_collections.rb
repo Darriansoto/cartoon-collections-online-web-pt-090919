@@ -11,8 +11,8 @@ end
 def summon_captain_planet(planeteer_calls)
   new_planeteer_calls = []
   planeteer_calls.each do |name|
-    puts "#{name.capitalize}!"
-    new_planeteer_calls << 
+    
+    new_planeteer_calls << puts "#{name.capitalize}!"
   end
   new_planeteer_calls
 end
